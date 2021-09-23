@@ -30,9 +30,7 @@ class INIParser {
 						if (kvi[0].endsWith(" ")) {
 							kvi[0] = chop(kvi[0]);
 						}
-						if (kvi[1].startsWith(" ")) {
-							
-						}
+						//fix2: remove unneccessary code
 						
 						assoc[kvi[0]] = kvi[1];
 					} catch ( Exception e ) {
