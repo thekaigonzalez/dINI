@@ -6,6 +6,27 @@ dINI is only about 100~ lines of code.
 
 IConf is like ISys, IConf, "My Configuration".
 
+## Projects
+
+A Current verified project using IConf as a backend is "[INItoC](https://thekaigonzalez.github.io/INItoC)".
+
+## Useful Config API
+
+You can use the Config API in your projects like so.
+
+```d
+
+import iconf;
+import std.stdio;
+
+void main() {
+	INIFile ip = new INIFile("load.conf");
+	auto data = ip.parse();
+	writeln(data["os"]);
+}
+
+```
+
 ## Examples
 
 try before you buy! (0.00$ each..)
