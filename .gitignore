@@ -1,0 +1,6 @@
+*.a
+tests/*.o
+tests/*.a
+*.o
+bin
+
